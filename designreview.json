@@ -1,0 +1,12 @@
+{
+  "config":{
+    "template_page_id" : 61210645,
+    "parent_page_id"   : 61210633,
+    "test_mode"        : 0,
+    "spacekey"         : "<SPACEKEY>"
+  },
+  "variables": {
+    "REVIEW_DATE": "2017-06-09 15:00:00",
+    "RELEASE_VERSION": "4.8.0"
+  }
+}

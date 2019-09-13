@@ -1,0 +1,35 @@
+# 
+# Requirements for python pip / This file describes the 3rdParty dependencies that the python scripts require.
+#
+# When you update this file do it like this:
+# - delete all files in site-packages
+# - Update the Windows site-packages with
+# -- cd <confluence-rest root folder>
+# -- "C:\Program Files\Python36\python.exe" -m pip install --upgrade --target site-packages/Windows_NT --requirement agent-admin/python-pip-requirements.txt
+# OR
+# - Update the Linux site-packages with
+# -- ls <confluence-rest root folder>
+# To Be Continued...
+# - run tests (when some are written...)
+# - commit
+
+
+
+# Documented in https://pip.pypa.io/en/stable/reference/pip_install/
+
+
+# Authorizations & SSL
+oauth2
+tlslite
+
+# Jira interface
+jira
+
+# Authorizations & SSL
+pyjwt
+cryptography
+
+# Agile tools
+# pygraphviz
+
+# eof

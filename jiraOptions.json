@@ -1,0 +1,6 @@
+{
+  "options":{
+    "server"      : "https://<MY JIRA INSTANCE>",
+    "verify"      : true
+    }
+}
